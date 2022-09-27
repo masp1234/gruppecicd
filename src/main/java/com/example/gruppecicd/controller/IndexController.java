@@ -11,6 +11,11 @@ public class IndexController {
         return "index.html";
     }
 
+    @GetMapping("/login")
+    public String login() {
+        return "login.html";
+    }
+
     @GetMapping("/daniel")
     public String daniel(){
         return "daniel.html";
