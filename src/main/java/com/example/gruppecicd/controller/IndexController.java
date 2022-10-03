@@ -20,4 +20,5 @@ public class IndexController {
     public String daniel(){
         return "daniel.html";
     }
+    //test
 }
